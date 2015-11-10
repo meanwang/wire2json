@@ -1,0 +1,5 @@
+
+E:\GitHub\wire2json\proto>java -jar wire-compiler-1.7.0-jar-with-dependencies.jar --proto_path=. --java_out=. company.proto 
+Compiling proto source file .\company.proto
+Writing generated code to .\com\mean\proto\Person.java
+Writing generated code to .\com\mean\proto\Company.java

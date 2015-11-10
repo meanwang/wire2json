@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: com.meanwang.wire2json.Wire2Json
+Main-Class: Wire2Json
+

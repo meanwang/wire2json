@@ -4,6 +4,7 @@
 jar包在project/out/artifacts中
 
 使用方式：
+
 Wire2Json.toJson(message);
 
 Wire2Json.toJsonString(message);

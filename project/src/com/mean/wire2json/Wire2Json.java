@@ -1,5 +1,6 @@
 package com.mean.wire2json;
 
+import android.text.TextUtils;
 import android.util.Log;
 import com.squareup.wire.Message;
 import okio.ByteString;
@@ -32,7 +33,7 @@ public class Wire2Json {
                 }
                 Object value = field.get(message);
                 String variateStr = parseValue(value,long2String);
-                if(variateStr != null) {
+                if(!TextUtils.isEmpty(variateStr)) {
                     result += ("\"" + field.getName() + "\":" + parseValue(value, long2String));
                 }
             } catch (IllegalAccessException e) {

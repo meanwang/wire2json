@@ -29,7 +29,7 @@ public class Wire2Json {
             try {
                 int modifiers = field.getModifiers();
                 if(Modifier.isStatic(modifiers)){
-                    break;
+                    continue;
                 }
                 Object value = field.get(message);
                 String variateStr = parseValue(value,long2String);
